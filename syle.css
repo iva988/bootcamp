@@ -1,0 +1,23 @@
+#outer-box {
+    background-color: purple;
+}
+.box{
+    padding: 10px;
+    background-color: blue;
+}
+p{
+    color: yellow;
+    margin: 0
+    ;
+}
+.inner-box {
+    background-color: red;
+}
+/* .white-text { */
+/* ili preko klase p, ili putem */
+.inner-box > p{
+    color: white;
+}
+p.poseban {
+    color:black;
+}
